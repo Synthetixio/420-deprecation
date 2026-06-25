@@ -37,6 +37,8 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
+  max-width: 48rem;
 }
 
 .social-links {
@@ -107,8 +109,6 @@ p {
 
 .content {
   margin-bottom: var(--spacing-xl);
-  max-width: 32rem;
-  margin-inline: auto;
   font-size: 0.875rem;
 }
 
@@ -118,9 +118,8 @@ p {
   }
 }
 
-.emphasis {
-  color: var(--color-text);
-  margin-bottom: var(--spacing-md);
+.content p + p {
+  margin-top: var(--spacing-sm);
 }
 
 .button-container {
